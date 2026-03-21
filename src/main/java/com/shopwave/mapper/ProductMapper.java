@@ -1,8 +1,8 @@
 // Student Number: ATE/7495/14
 
-package com.shopwave.shopwavestarter.mapper;
+package com.shopwave.mapper;
 
-import com.shopwave.shopwavestarter.dto.ProductDTO;
+import com.shopwave.dto.ProductDTO;
 import com.shopwave.model.Product;
 import org.springframework.stereotype.Component;
 

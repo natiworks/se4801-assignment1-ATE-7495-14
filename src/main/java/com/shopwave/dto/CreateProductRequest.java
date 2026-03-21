@@ -1,24 +1,30 @@
 // Student Number: ATE/7495/14
 
-package com.shopwave.shopwavestarter.dto;
+package com.shopwave.dto;
 
 import lombok.*;
+import jakarta.validation.constraints.*;
+
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
 
 @Data
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProductDTO {
+public class CreateProductRequest {
 
-    private Long id;
+    @NotBlank
     private String name;
+
     private String description;
+
+    @NotNull
+    @Positive
     private BigDecimal price;
+
+    @NotNull
+    @Min(0)
     private Integer stock;
+
     private Long categoryId;
-    private String categoryName;
-    private LocalDateTime createdAt;
 
 }

@@ -1,15 +1,15 @@
 // Student Number: ATE/7495/14
 
-package com.shopwave.shopwavestarter.service;
+package com.shopwave.service;
 
-import com.shopwave.shopwavestarter.dto.CreateProductRequest;
-import com.shopwave.shopwavestarter.dto.ProductDTO;
-import com.shopwave.shopwavestarter.exception.ProductNotFoundException;
-import com.shopwave.shopwavestarter.mapper.ProductMapper;
+import com.shopwave.dto.CreateProductRequest;
+import com.shopwave.dto.ProductDTO;
+import com.shopwave.exception.ProductNotFoundException;
+import com.shopwave.mapper.ProductMapper;
 import com.shopwave.model.Category;
 import com.shopwave.model.Product;
-import com.shopwave.shopwavestarter.repository.CategoryRepository;
-import com.shopwave.shopwavestarter.repository.ProductRepository;
+import com.shopwave.repository.CategoryRepository;
+import com.shopwave.repository.ProductRepository;
 
 import lombok.RequiredArgsConstructor;
 

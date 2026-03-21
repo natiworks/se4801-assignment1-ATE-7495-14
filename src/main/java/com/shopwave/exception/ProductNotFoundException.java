@@ -1,6 +1,6 @@
 // Student Number: ATE/7495/14
 
-package com.shopwave.shopwavestarter.exception;
+package com.shopwave.exception;
 
 public class ProductNotFoundException extends RuntimeException {
 

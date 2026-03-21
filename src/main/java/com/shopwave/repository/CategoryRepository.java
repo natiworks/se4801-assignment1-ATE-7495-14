@@ -1,6 +1,6 @@
 // Student Number: ATE/7495/14
 
-package com.shopwave.shopwavestarter.repository;
+package com.shopwave.repository;
 
 import com.shopwave.model.Category;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -105,16 +105,8 @@ http://localhost:8080/actuator/health
 
 ---
 
-## Domain Model
 
-Four JPA entities defined in `com.shopwave.model`:
 
-| Entity | Key Fields | Relationships |
-|---|---|---|
-| `Category` | `id`, `name` (not blank), `description` | One-to-Many → `Product` |
-| `Product` | `id`, `name`, `description`, `price` (positive), `stock` (min 0), `createdAt` | Many-to-One → `Category` |
-| `Order` | `id`, `orderNumber` (unique), `status` (enum), `totalAmount`, `createdAt` | One-to-Many → `OrderItem` (orphanRemoval) |
-| `OrderItem` | `id`, `quantity`, `unitPrice` | Many-to-One → `Product` |
 
 
 ## API Endpoints

@@ -1,29 +1,13 @@
 # ShopWave-Starter
 
-> SE 4801 — Enterprise Application Development · Assignment 1 · Section C  
+> SE 4801 — Enterprise Application Development · Assignment 1 ·  
 > **Name:** Natnael Nigatu  
 > **Student Number:** ATE/7495/14
 
 
 ---
 
-## Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Technologies Used](#technologies-used)
-3. [Project Structure](#project-structure)
-4. [Prerequisites](#prerequisites)
-5. [How to Build](#how-to-build)
-6. [How to Run](#how-to-run)
-7. [Domain Model](#domain-model)
-8. [API Endpoints](#api-endpoints)
-9. [How to Run Tests](#how-to-run-tests)
-10. [Sample API Responses](#sample-api-responses)
-11. [Assignment Mapping (Section C)](#assignment-mapping-section-c)
-12. [Bonus — Testcontainers](#bonus--testcontainers)
-13. [Academic Integrity Declaration](#academic-integrity-declaration)
-
----
 
 ## Project Overview
 
